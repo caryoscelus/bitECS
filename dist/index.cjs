@@ -24,6 +24,7 @@ var __toCommonJS = /* @__PURE__ */ ((cache) => {
 // src/index.js
 var src_exports = {};
 __export(src_exports, {
+  $isEidType: () => $isEidType,
   Changed: () => Changed,
   DESERIALIZE_MODE: () => DESERIALIZE_MODE,
   Not: () => Not,
@@ -1082,6 +1083,7 @@ var Types = TYPES_ENUM;
 module.exports = __toCommonJS(src_exports);
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
+  $isEidType,
   Changed,
   DESERIALIZE_MODE,
   Not,

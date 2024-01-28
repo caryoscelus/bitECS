@@ -1017,6 +1017,7 @@ var pipe = (...fns) => (input) => {
 };
 var Types = TYPES_ENUM;
 export {
+  $isEidType,
   Changed,
   DESERIALIZE_MODE,
   Not,
