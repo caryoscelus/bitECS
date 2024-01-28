@@ -4,7 +4,7 @@ import { defineComponent, registerComponent, registerComponents, hasComponent, a
 import { defineSystem } from './System.js'
 import { defineQuery, enterQuery, exitQuery, Changed, Not, commitRemovals, resetChangedQuery, removeQuery } from './Query.js'
 import { defineSerializer, defineDeserializer, DESERIALIZE_MODE } from './Serialize.js'
-import { parentArray } from './Storage.js'
+import { parentArray, $isEidType } from './Storage.js'
 import { TYPES_ENUM } from './Constants.js'
 
 export const pipe = (...fns) => (input) => {
@@ -58,6 +58,8 @@ export {
 
   parentArray,
 
-  resetGlobals
+  resetGlobals,
+
+  $isEidType
 
 }
